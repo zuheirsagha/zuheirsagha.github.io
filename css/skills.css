@@ -1,0 +1,28 @@
+.skill_title {
+  font-weight: bold;
+  margin: auto;
+  font-size: 4em;
+  text-align: left;
+  width: 90%;
+  padding-top: 40px;
+  margin-right: 5%;
+  padding-bottom: 40px;
+}
+
+.skill_list {
+  width: 100%;
+  order: 1;
+}
+
+@media screen and (min-width: 550px) {
+  .skill_list {
+    order: -1;
+    width:60%;
+  }
+
+  .skill_title {
+    text-align: right;
+    width: 35%;
+    padding: 0;
+  }
+}

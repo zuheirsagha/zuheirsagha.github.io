@@ -1,0 +1,34 @@
+.logo_container {
+  width: 90%;
+  margin:auto;
+}
+
+.logo {
+  width: 100%;
+}
+
+.logo>img {
+  display: block;
+  margin:auto;
+  max-width: 80%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.bottom_space{
+  width: 0%;
+}
+
+@media screen and (min-width: 550px) {
+  .top_row {
+    width: 33.33333%
+  }
+
+  .bottom_row {
+    width: 33.33333%;
+  }
+
+  .bottom_space {
+    width: 16%;
+  }
+}

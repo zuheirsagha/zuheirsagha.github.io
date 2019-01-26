@@ -1,0 +1,46 @@
+.z_logo {
+  max-height: 30%;
+  display: none;
+  bottom: 0px;
+  right: 0px;
+  position: absolute;
+  z-index: -10;
+}
+
+.splash {
+  position: relative;
+}
+
+.no_top {
+  padding-top: 0px;
+  padding-bottom: 40px;
+}
+
+@media screen and (min-height: 580px) {
+  .z_logo {
+    display: block;
+  }
+
+  .splash {
+    height: calc(100vh - 47px);
+    width: 100vw;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .z_logo {
+    max-height: 40%;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .z_logo {
+    max-height: 50%;
+  }
+}
+
+@media screen and (min-width: 1350px) {
+  .z_logo {
+    max-height: 80%;
+  }
+}

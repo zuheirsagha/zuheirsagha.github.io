@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Zuheir Al Sagha</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="img/zs.png">
+    <link rel="icon" type="image/png" href="img/zs.png"/>
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="../css/nav.css">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../css/projects.css">
+
+    <script type = "text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../js/main.js"></script>
+</head>
+
+<body>
+  <!-- NAV SECTION-->
+  <div class="topnav" id="myTopnav">
+    <a href="../index.html#home">Home</a>
+    <a href="../index.html#skills">Skills</a>
+    <a href="../index.html#portfolio">Portfolio</a>
+    <a href="../index.html#experience">Experience</a>
+    <a href="../index.html#contact">Contact</a>
+    <a href="javascript:void(0);" class="icon" id="menu">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <section class="flex">
+    <!-- Title -->
+    <div class="container">
+      <h1 class="project_title top">WombDefender</h1>
+      <p class="subtitle">Personal Project</p>
+    </div>
+    <img class="cover_image" src="../img/wd/cover.png">
+
+    <!-- Spacer -->
+    <div class="container">
+      <hr>
+    </div>
+
+    <!-- Overview -->
+    <div class="container">
+      <h1 class="project_title">Overview</h1>
+      <div class="space"></div>
+      <div class="flex seventy_container">
+        <div class="quarter">
+          <div class="overview_column">
+            <div class="overview_header">Team</div>
+            <div class="overview_content">Myself and 1 backend developer</div>
+          </div>
+        </div>
+        <div class="quarter">
+          <div class="overview_column">
+            <div class="overview_header">Time</div>
+            <div class="overview_content">4 months during spare time</div>
+          </div>
+        </div>
+        <div class="quarter">
+          <div class="overview_column">
+            <div class="overview_header">Role</div>
+            <div class="overview_content">Lead Developer / Designer</div>
+          </div>
+        </div>
+        <div class="quarter">
+          <div class="overview_column">
+            <div class="overview_header">Download</div>
+            <div class="overview_content">
+              <a href="https://itunes.apple.com/us/app/id1198796256">App Store: Link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> <!-- End Overview */ -->
+
+    <!-- Spacer -->
+    <div class="space"></div>
+    <div class="container">
+      <hr>
+    </div>
+
+    <div class="container">
+      <h1 class="project_title">The Challenge</h1>
+      <div class="space"></div>
+      <p>
+        WombDefender is one of my <b>personal projects</b>. It is a mobile game
+        in which sperm cells swim towards an egg in the center of the screen.
+        Players must swipe to create barriers and stop the egg from being fertilized.
+      </p>
+      <p>
+        It originated as a desktop game written in Java but as my interests
+        started shifting more towards <b>mobile development</b> I decided to pivot
+        the project and build a mobile app instead.
+      </p>
+      <p>
+        The following were used during the development of WombDefender:
+      </p>
+      <ol>
+        <li>Swift 3</li>
+        <li>NodeJS</li>
+        <li>Heroku</li>
+      </ol>
+    </div>
+
+    <div class="space"></div>
+    <div class="container">
+      <hr>
+    </div>
+
+    <div class="container">
+      <h1 class="project_title">Deep Dive</h1>
+      <div class="space"></div>
+      <p>
+        Utilized <b>UIKit</b> to create a user generated <b>BezierPath</b> by recognizing
+        touch locations and creating a barrier where the user drew a path.
+      </p>
+      <p>
+        Implemented <b>UIDynamicBehaviour</b> to create collision behaviours as well
+        as a <b>radial gravity field</b> which attracted randomly generated views to
+        the center of the screen.
+      </p>
+      <p>
+        Created a worldwide leaderboard using a <b>Node server and Heroku</b> which
+        keeps track of all top scores and generates a table based on highest
+        rank.
+      </p>
+    </div>
+
+    <div class="space"></div>
+
+    <div class="flex sixty_container">
+      <div class="third">
+        <img class="img_margin" src="../img/wd/home.png">
+      </div>
+      <div class="third">
+        <img class="img_margin" src="../img/wd/game.png">
+      </div>
+      <div class="third">
+        <img class="img_margin" src="../img/wd/rules.png">
+      </div>
+      <div class="third">
+        <img class="img_margin" src="../img/wd/spermicide.png">
+      </div>
+      <div class="third">
+        <img class="img_margin" src="../img/wd/level.png">
+      </div>
+      <div class="third">
+        <img class="img_margin" src="../img/wd/leaderboard.png">
+      </div>
+    </div>
+
+    <div class="space"></div>
+    <div class="container">
+      <hr>
+    </div>
+
+    <div class="container">
+      <h1 class="project_title">WireFrame</h1>
+    </div>
+    <div class="space"></div>
+    <img class="cover_image" src="../img/wd/wireframe.png">
+  </section>
+
+  <ul class="projects_list">
+    <li><a href="wombdefender.html" class="active">WombDefender</a></li>
+    <li><a href="pp.html">Popcorn Priests</a></li>
+    <li><a href="bp.html">BoilerPlate.</a></li>
+    <li><a href="dribbble.html">Dribbble</a></li>
+    <li><a href="mr.html">MaxRep</a></li>
+    <li><a href="br.html">Baton Rouge</a></li>
+  </ul>
+
+  <div class="space"></div>
+  <p style="text-align:center;">© Zuheir Chikh Al Sagha 2019</p>
+  <div class="space"></div>
+</body>

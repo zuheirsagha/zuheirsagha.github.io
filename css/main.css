@@ -1,0 +1,186 @@
+@font-face{
+  font-family: "Big_John";
+  src: url('../fonts/big_john.otf'),
+  url('big_john.otf'); /* IE */
+}
+
+@@font-face {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+}
+
+hr {
+  width:200px;
+  margin: 40px auto;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html, body, section, .container {
+  font-family: Raleway;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+h1, h2, h3, ul, .title, .topnav {
+  max-width: 90%;
+  margin:auto;
+  padding: 0;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+.top {
+  padding-top: 20px;
+}
+
+p, ol {
+  width: 600px;
+  max-width: 80%;
+  margin:auto;
+  margin-top:12px;
+  margin-bottom:12px;
+  font-size: 1em;
+}
+
+ol {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul li {
+  display: inline;
+}
+
+a:hover, a>i:hover, p>a:hover, .contact>div>div>p>a:hover {
+  color: #6B7DA0;
+}
+
+.center {
+  text-align: center;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: #000000;
+}
+
+.active {
+  color: #A5C0F3 !important;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 3.5em;
+  text-align: left;
+  padding-bottom: 40px;
+}
+
+.sixty_container {
+  width: 60%;
+  margin: auto;
+}
+
+.ninety_container {
+    width: 90%;
+    margin:auto;
+}
+
+.seventy_container {
+  width: 70%;
+  margin: auto;
+}
+
+.subtitle {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.third, .quarter, .fifty {
+  width: 100%;
+  text-align: center;
+}
+
+.space {
+  width: 100%;
+  height:40px;
+}
+
+.first_order {
+  order: -1;
+}
+
+@media screen and (min-width: 550px) {
+  .third {
+    width: 50%;
+  }
+
+  .quarter {
+    width: 50%;
+  }
+
+  .first_order {
+    order: 1;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .third {
+    width: 33.33333333%;
+  }
+}
+
+.simple_third {
+  width: 100%;
+}
+
+@media screen and (min-width: 900px) {
+  .simple_third {
+    width: 33.3333%;
+  }
+  .quarter {
+    width: 25%;
+  }
+}
+
+@media screen and (min-width: 550px) {
+  .fifty {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  h1 {
+    font-size: 7em;
+  }
+
+  .top {
+    padding-top: 100px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  h1 {
+    font-size: 9em;
+  }
+}

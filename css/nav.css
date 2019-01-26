@@ -1,0 +1,65 @@
+.topnav {
+  background-color: none;
+  overflow: hidden;
+}
+
+/* nav options */
+.topnav a {
+  float: right;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 12px 16px;
+  text-decoration: none;
+  font-size: 1.25em;
+}
+
+.topnav a:hover, .projects_list>li>a:hover, .overview_content>a:hover {
+  color: #A5C0F3;
+}
+
+.topnav .active {
+  color: #A5C0F3;
+}
+
+.topnav .icon {
+  display: none;
+  color: #A5C0F3;
+}
+
+.responsive {
+  position: relative;
+}
+
+/* When the screen is less than 600 pixels wide, hide all links.
+Show the link that contains the topnav (.icon) */
+@media screen and (max-width: 600px) {
+  .topnav {
+    padding-right: 0;
+  }
+
+  /* hide navbar items */
+  .topnav a {
+    display: none;
+  }
+
+  /* show hamburger icon */
+  .topnav .icon {
+    float: right;
+    display: block;
+  }
+
+  /* put hamburger icon in top right */
+  .responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  /* show hamburger options */
+  .responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}

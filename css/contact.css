@@ -1,0 +1,24 @@
+.contact {
+  width: 100%;
+  padding-top:100px;
+  padding-bottom:100px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: #A5C0F3;
+  color: white;
+  text-align: center;
+}
+
+.contact>ul>li>a, .contact>div>div>p>a {
+  color: white;
+}
+
+.contact_info {
+  padding-top: 40px;
+}
+
+.social-btn {
+  font-size: 50px;
+  padding: 15px;
+  color: white;
+}

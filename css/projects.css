@@ -1,0 +1,52 @@
+.img_margin {
+  margin: 20px;
+  width: calc((100% - 40px));
+}
+
+.project_title {
+  text-align: center;
+  font-size: 2em;
+}
+
+.cover_image {
+  align-self: center;
+  margin: 40px auto;
+  width: 900px;
+  max-width: 90%;
+  height: auto;
+}
+
+.projects_list {
+  text-align: center;
+  font-size:1.5em;
+}
+
+.projects_list>li {
+  margin: auto 15px;
+}
+
+.overview_column {
+  padding-left: 12px;
+  padding-right: 12px;
+  text-align: center;
+}
+
+.overview_header {
+  padding-top: 12px;
+  font-weight:bold;
+}
+
+.overview_content {
+  padding-bottom: 12px;
+  text-align: center;
+}
+
+@media screen and (min-width: 600px) {
+  .project_title {
+    font-size: 4em;
+  }
+}
+
+.projects_list>li>a .active {
+  color: #FFF;
+}
