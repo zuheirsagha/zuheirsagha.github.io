@@ -1,12 +1,18 @@
-@font-face{
+@font-face {
   font-family: "Big_John";
-  src: url('../fonts/big_john.otf'),
-  url('big_john.otf'); /* IE */
+    src: url('https://zuheirsagha.github.io/fonts/bigjohn/big_john-webfont.woff2') format('woff2'),
+         url('https://zuheirsagha.github.io/fonts/bigjohn/big_john-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
-@@font-face {
-  font-family: 'Raleway', sans-serif;
-  font-style: normal;
+@font-face {
+    font-family: 'A_Pomp';
+    src: url('../fonts/apomp/a_pomp-webfont.woff2') format('woff2'),
+         url('../fonts/apomp/a_pomp-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 hr {
@@ -21,7 +27,7 @@ html {
 }
 
 html, body, section, .container {
-  font-family: Raleway;
+  font-family: A_Pomp;
   width: 100vw;
   margin: 0;
   padding: 0;
@@ -52,7 +58,7 @@ p, ol {
   margin:auto;
   margin-top:12px;
   margin-bottom:12px;
-  font-size: 1em;
+  font-size: 1.5em;
 }
 
 ol {
@@ -108,6 +114,7 @@ a:link, a:visited {
 }
 
 .subtitle {
+  font-size: 2em;
   text-align: center;
 }
 

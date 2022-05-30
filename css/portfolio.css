@@ -78,6 +78,10 @@
 }
 
 /* Colors */
+.mixr {
+  background-color: #FAFAFA;
+}
+
 .womb_defender {
   background-color: #D93F3F;
 }
@@ -100,6 +104,10 @@
 
 .baton_rouge {
   background-color: #DFDFDF;
+}
+
+.mixr_layer {
+  background-color: rgba(0,0,0,0.5);
 }
 
 .wd_layer {
